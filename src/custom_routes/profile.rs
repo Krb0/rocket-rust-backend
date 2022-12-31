@@ -8,11 +8,11 @@ fn get_profile(
 ) -> Template{
     let users:[User;2] = [
         User {
-            name: "Juan".to_string(),
+            name: String::from("Juan"),
             id: 1,
         },
         User {
-            name: "Pedro".to_string(),
+            name: String::from("Pedro"),
             id: 2,
         },
     ];
